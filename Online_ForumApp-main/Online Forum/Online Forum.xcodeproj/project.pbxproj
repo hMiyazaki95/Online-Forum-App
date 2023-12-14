@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6011ACAD2B2064CB00D6DD73 /* Online_ForumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACAC2B2064CB00D6DD73 /* Online_ForumApp.swift */; };
+		6011ACAF2B2064CB00D6DD73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACAE2B2064CB00D6DD73 /* ContentView.swift */; };
+		6011ACB12B2064CD00D6DD73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6011ACB02B2064CD00D6DD73 /* Assets.xcassets */; };
+		6011ACB42B2064CD00D6DD73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6011ACB32B2064CD00D6DD73 /* Preview Assets.xcassets */; };
+		6011ACBE2B2064CE00D6DD73 /* Online_ForumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACBD2B2064CE00D6DD73 /* Online_ForumTests.swift */; };
+		6011ACC82B2064CE00D6DD73 /* Online_ForumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACC72B2064CE00D6DD73 /* Online_ForumUITests.swift */; };
+		6011ACCA2B2064CE00D6DD73 /* Online_ForumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACC92B2064CE00D6DD73 /* Online_ForumUITestsLaunchTests.swift */; };
+		6011ACDC2B20795900D6DD73 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACDB2B20795900D6DD73 /* LoginView.swift */; };
+		6011ACDE2B20796E00D6DD73 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACDD2B20796E00D6DD73 /* MainTabView.swift */; };
+		6011ACE02B20798200D6DD73 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACDF2B20798200D6DD73 /* DashboardView.swift */; };
+		6011ACE22B20799300D6DD73 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACE12B20799300D6DD73 /* ProfileView.swift */; };
+		6011ACE42B20799E00D6DD73 /* PostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACE32B20799E00D6DD73 /* PostingView.swift */; };
+		6011ACE62B207F6800D6DD73 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACE52B207F6800D6DD73 /* SignUpView.swift */; };
+		6011ACE82B20801D00D6DD73 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACE72B20801D00D6DD73 /* WelcomeView.swift */; };
+		6011ACEA2B20826900D6DD73 /* ForumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACE92B20826900D6DD73 /* ForumView.swift */; };
+		6011ACEC2B208B7400D6DD73 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACEB2B208B7400D6DD73 /* ImagePicker.swift */; };
+		6011ACF12B21289700D6DD73 /* ForumDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACF02B21289700D6DD73 /* ForumDataManager.swift */; };
+		6011ACF32B212BE600D6DD73 /* ForumPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACF22B212BE600D6DD73 /* ForumPost.swift */; };
+		6011ACF52B215B3000D6DD73 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACF42B215B3000D6DD73 /* Channel.swift */; };
+		6011ACF72B215B4800D6DD73 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACF62B215B4800D6DD73 /* Post.swift */; };
+		6011ACF92B215B6100D6DD73 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACF82B215B6100D6DD73 /* DataStore.swift */; };
+		6011ACFB2B215B8000D6DD73 /* ChannelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACFA2B215B8000D6DD73 /* ChannelListView.swift */; };
+		6011ACFD2B2175AB00D6DD73 /* ChannelPostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACFC2B2175AB00D6DD73 /* ChannelPostingView.swift */; };
+		6011ACFF2B218CBE00D6DD73 /* ChannelImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011ACFE2B218CBE00D6DD73 /* ChannelImage.swift */; };
+		606986872B2883B100332CFB /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606986862B2883B100332CFB /* SettingView.swift */; };
+		606986892B2884ED00332CFB /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606986882B2884ED00332CFB /* EditProfileView.swift */; };
+		6069868C2B2892B600332CFB /* CommonButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6069868B2B2892B600332CFB /* CommonButtonStyle.swift */; };
+		60ECE8BC2B2736D8001039FB /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ECE8BB2B2736D8001039FB /* AccountView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6011ACBA2B2064CE00D6DD73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6011ACA12B2064CB00D6DD73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6011ACA82B2064CB00D6DD73;
+			remoteInfo = "Online Forum";
+		};
+		6011ACC42B2064CE00D6DD73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6011ACA12B2064CB00D6DD73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6011ACA82B2064CB00D6DD73;
+			remoteInfo = "Online Forum";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6011ACA92B2064CB00D6DD73 /* Online Forum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Online Forum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6011ACAC2B2064CB00D6DD73 /* Online_ForumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Online_ForumApp.swift; sourceTree = "<group>"; };
+		6011ACAE2B2064CB00D6DD73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6011ACB02B2064CD00D6DD73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6011ACB32B2064CD00D6DD73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6011ACB92B2064CE00D6DD73 /* Online ForumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Online ForumTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6011ACBD2B2064CE00D6DD73 /* Online_ForumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Online_ForumTests.swift; sourceTree = "<group>"; };
+		6011ACC32B2064CE00D6DD73 /* Online ForumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Online ForumUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6011ACC72B2064CE00D6DD73 /* Online_ForumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Online_ForumUITests.swift; sourceTree = "<group>"; };
+		6011ACC92B2064CE00D6DD73 /* Online_ForumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Online_ForumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6011ACDB2B20795900D6DD73 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6011ACDD2B20796E00D6DD73 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		6011ACDF2B20798200D6DD73 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		6011ACE12B20799300D6DD73 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		6011ACE32B20799E00D6DD73 /* PostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingView.swift; sourceTree = "<group>"; };
+		6011ACE52B207F6800D6DD73 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		6011ACE72B20801D00D6DD73 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		6011ACE92B20826900D6DD73 /* ForumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumView.swift; sourceTree = "<group>"; };
+		6011ACEB2B208B7400D6DD73 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		6011ACF02B21289700D6DD73 /* ForumDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumDataManager.swift; sourceTree = "<group>"; };
+		6011ACF22B212BE600D6DD73 /* ForumPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumPost.swift; sourceTree = "<group>"; };
+		6011ACF42B215B3000D6DD73 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		6011ACF62B215B4800D6DD73 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		6011ACF82B215B6100D6DD73 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		6011ACFA2B215B8000D6DD73 /* ChannelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListView.swift; sourceTree = "<group>"; };
+		6011ACFC2B2175AB00D6DD73 /* ChannelPostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelPostingView.swift; sourceTree = "<group>"; };
+		6011ACFE2B218CBE00D6DD73 /* ChannelImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelImage.swift; sourceTree = "<group>"; };
+		606986862B2883B100332CFB /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		606986882B2884ED00332CFB /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		6069868B2B2892B600332CFB /* CommonButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButtonStyle.swift; sourceTree = "<group>"; };
+		60ECE8BB2B2736D8001039FB /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6011ACA62B2064CB00D6DD73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6011ACB62B2064CE00D6DD73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6011ACC02B2064CE00D6DD73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6011ACA02B2064CB00D6DD73 = {
+			isa = PBXGroup;
+			children = (
+				6011ACD62B20726300D6DD73 /* Utilities */,
+				6011ACAB2B2064CB00D6DD73 /* Online Forum */,
+				6011ACBC2B2064CE00D6DD73 /* Online ForumTests */,
+				6011ACC62B2064CE00D6DD73 /* Online ForumUITests */,
+				6011ACAA2B2064CB00D6DD73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6011ACAA2B2064CB00D6DD73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6011ACA92B2064CB00D6DD73 /* Online Forum.app */,
+				6011ACB92B2064CE00D6DD73 /* Online ForumTests.xctest */,
+				6011ACC32B2064CE00D6DD73 /* Online ForumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6011ACAB2B2064CB00D6DD73 /* Online Forum */ = {
+			isa = PBXGroup;
+			children = (
+				6069868A2B28855800332CFB /* Styles */,
+				6011ACEF2B21286800D6DD73 /* Data */,
+				6011ACEE2B21285A00D6DD73 /* Providers */,
+				6011ACED2B21284E00D6DD73 /* Managers */,
+				6011ACAC2B2064CB00D6DD73 /* Online_ForumApp.swift */,
+				6011ACAE2B2064CB00D6DD73 /* ContentView.swift */,
+				6011ACB02B2064CD00D6DD73 /* Assets.xcassets */,
+				6011ACE72B20801D00D6DD73 /* WelcomeView.swift */,
+				6011ACEB2B208B7400D6DD73 /* ImagePicker.swift */,
+				6011ACD72B20727400D6DD73 /* Views */,
+				6011ACB22B2064CD00D6DD73 /* Preview Content */,
+			);
+			path = "Online Forum";
+			sourceTree = "<group>";
+		};
+		6011ACB22B2064CD00D6DD73 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6011ACB32B2064CD00D6DD73 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6011ACBC2B2064CE00D6DD73 /* Online ForumTests */ = {
+			isa = PBXGroup;
+			children = (
+				6011ACBD2B2064CE00D6DD73 /* Online_ForumTests.swift */,
+			);
+			path = "Online ForumTests";
+			sourceTree = "<group>";
+		};
+		6011ACC62B2064CE00D6DD73 /* Online ForumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6011ACC72B2064CE00D6DD73 /* Online_ForumUITests.swift */,
+				6011ACC92B2064CE00D6DD73 /* Online_ForumUITestsLaunchTests.swift */,
+			);
+			path = "Online ForumUITests";
+			sourceTree = "<group>";
+		};
+		6011ACD62B20726300D6DD73 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6011ACD72B20727400D6DD73 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6011ACDB2B20795900D6DD73 /* LoginView.swift */,
+				6011ACDD2B20796E00D6DD73 /* MainTabView.swift */,
+				6011ACDF2B20798200D6DD73 /* DashboardView.swift */,
+				6011ACE12B20799300D6DD73 /* ProfileView.swift */,
+				6011ACE32B20799E00D6DD73 /* PostingView.swift */,
+				6011ACE52B207F6800D6DD73 /* SignUpView.swift */,
+				6011ACE92B20826900D6DD73 /* ForumView.swift */,
+				6011ACFA2B215B8000D6DD73 /* ChannelListView.swift */,
+				6011ACFC2B2175AB00D6DD73 /* ChannelPostingView.swift */,
+				6011ACFE2B218CBE00D6DD73 /* ChannelImage.swift */,
+				60ECE8BB2B2736D8001039FB /* AccountView.swift */,
+				606986862B2883B100332CFB /* SettingView.swift */,
+				606986882B2884ED00332CFB /* EditProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6011ACED2B21284E00D6DD73 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6011ACEE2B21285A00D6DD73 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		6011ACEF2B21286800D6DD73 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6011ACF62B215B4800D6DD73 /* Post.swift */,
+				6011ACF02B21289700D6DD73 /* ForumDataManager.swift */,
+				6011ACF82B215B6100D6DD73 /* DataStore.swift */,
+				6011ACF22B212BE600D6DD73 /* ForumPost.swift */,
+				6011ACF42B215B3000D6DD73 /* Channel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6069868A2B28855800332CFB /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				6069868B2B2892B600332CFB /* CommonButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6011ACA82B2064CB00D6DD73 /* Online Forum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6011ACCD2B2064CE00D6DD73 /* Build configuration list for PBXNativeTarget "Online Forum" */;
+			buildPhases = (
+				6011ACA52B2064CB00D6DD73 /* Sources */,
+				6011ACA62B2064CB00D6DD73 /* Frameworks */,
+				6011ACA72B2064CB00D6DD73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Online Forum";
+			productName = "Online Forum";
+			productReference = 6011ACA92B2064CB00D6DD73 /* Online Forum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6011ACB82B2064CE00D6DD73 /* Online ForumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6011ACD02B2064CE00D6DD73 /* Build configuration list for PBXNativeTarget "Online ForumTests" */;
+			buildPhases = (
+				6011ACB52B2064CE00D6DD73 /* Sources */,
+				6011ACB62B2064CE00D6DD73 /* Frameworks */,
+				6011ACB72B2064CE00D6DD73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6011ACBB2B2064CE00D6DD73 /* PBXTargetDependency */,
+			);
+			name = "Online ForumTests";
+			productName = "Online ForumTests";
+			productReference = 6011ACB92B2064CE00D6DD73 /* Online ForumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6011ACC22B2064CE00D6DD73 /* Online ForumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6011ACD32B2064CE00D6DD73 /* Build configuration list for PBXNativeTarget "Online ForumUITests" */;
+			buildPhases = (
+				6011ACBF2B2064CE00D6DD73 /* Sources */,
+				6011ACC02B2064CE00D6DD73 /* Frameworks */,
+				6011ACC12B2064CE00D6DD73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6011ACC52B2064CE00D6DD73 /* PBXTargetDependency */,
+			);
+			name = "Online ForumUITests";
+			productName = "Online ForumUITests";
+			productReference = 6011ACC32B2064CE00D6DD73 /* Online ForumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6011ACA12B2064CB00D6DD73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6011ACA82B2064CB00D6DD73 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					6011ACB82B2064CE00D6DD73 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 6011ACA82B2064CB00D6DD73;
+					};
+					6011ACC22B2064CE00D6DD73 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 6011ACA82B2064CB00D6DD73;
+					};
+				};
+			};
+			buildConfigurationList = 6011ACA42B2064CB00D6DD73 /* Build configuration list for PBXProject "Online Forum" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6011ACA02B2064CB00D6DD73;
+			productRefGroup = 6011ACAA2B2064CB00D6DD73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6011ACA82B2064CB00D6DD73 /* Online Forum */,
+				6011ACB82B2064CE00D6DD73 /* Online ForumTests */,
+				6011ACC22B2064CE00D6DD73 /* Online ForumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6011ACA72B2064CB00D6DD73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6011ACB42B2064CD00D6DD73 /* Preview Assets.xcassets in Resources */,
+				6011ACB12B2064CD00D6DD73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6011ACB72B2064CE00D6DD73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6011ACC12B2064CE00D6DD73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6011ACA52B2064CB00D6DD73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6011ACDC2B20795900D6DD73 /* LoginView.swift in Sources */,
+				6011ACFD2B2175AB00D6DD73 /* ChannelPostingView.swift in Sources */,
+				6011ACF92B215B6100D6DD73 /* DataStore.swift in Sources */,
+				6011ACAF2B2064CB00D6DD73 /* ContentView.swift in Sources */,
+				60ECE8BC2B2736D8001039FB /* AccountView.swift in Sources */,
+				6011ACEA2B20826900D6DD73 /* ForumView.swift in Sources */,
+				6011ACE42B20799E00D6DD73 /* PostingView.swift in Sources */,
+				6011ACE02B20798200D6DD73 /* DashboardView.swift in Sources */,
+				606986872B2883B100332CFB /* SettingView.swift in Sources */,
+				6011ACFF2B218CBE00D6DD73 /* ChannelImage.swift in Sources */,
+				6011ACF32B212BE600D6DD73 /* ForumPost.swift in Sources */,
+				6069868C2B2892B600332CFB /* CommonButtonStyle.swift in Sources */,
+				6011ACE82B20801D00D6DD73 /* WelcomeView.swift in Sources */,
+				6011ACF52B215B3000D6DD73 /* Channel.swift in Sources */,
+				6011ACE62B207F6800D6DD73 /* SignUpView.swift in Sources */,
+				606986892B2884ED00332CFB /* EditProfileView.swift in Sources */,
+				6011ACF72B215B4800D6DD73 /* Post.swift in Sources */,
+				6011ACF12B21289700D6DD73 /* ForumDataManager.swift in Sources */,
+				6011ACEC2B208B7400D6DD73 /* ImagePicker.swift in Sources */,
+				6011ACAD2B2064CB00D6DD73 /* Online_ForumApp.swift in Sources */,
+				6011ACFB2B215B8000D6DD73 /* ChannelListView.swift in Sources */,
+				6011ACE22B20799300D6DD73 /* ProfileView.swift in Sources */,
+				6011ACDE2B20796E00D6DD73 /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6011ACB52B2064CE00D6DD73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6011ACBE2B2064CE00D6DD73 /* Online_ForumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6011ACBF2B2064CE00D6DD73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6011ACC82B2064CE00D6DD73 /* Online_ForumUITests.swift in Sources */,
+				6011ACCA2B2064CE00D6DD73 /* Online_ForumUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6011ACBB2B2064CE00D6DD73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6011ACA82B2064CB00D6DD73 /* Online Forum */;
+			targetProxy = 6011ACBA2B2064CE00D6DD73 /* PBXContainerItemProxy */;
+		};
+		6011ACC52B2064CE00D6DD73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6011ACA82B2064CB00D6DD73 /* Online Forum */;
+			targetProxy = 6011ACC42B2064CE00D6DD73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6011ACCB2B2064CE00D6DD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6011ACCC2B2064CE00D6DD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6011ACCE2B2064CE00D6DD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Online Forum/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hmiyazaki.com.Online-Forum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6011ACCF2B2064CE00D6DD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Online Forum/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hmiyazaki.com.Online-Forum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6011ACD12B2064CE00D6DD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hmiyazaki.com.Online-ForumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Online Forum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Online Forum";
+			};
+			name = Debug;
+		};
+		6011ACD22B2064CE00D6DD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hmiyazaki.com.Online-ForumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Online Forum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Online Forum";
+			};
+			name = Release;
+		};
+		6011ACD42B2064CE00D6DD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hmiyazaki.com.Online-ForumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Online Forum";
+			};
+			name = Debug;
+		};
+		6011ACD52B2064CE00D6DD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hmiyazaki.com.Online-ForumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Online Forum";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6011ACA42B2064CB00D6DD73 /* Build configuration list for PBXProject "Online Forum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6011ACCB2B2064CE00D6DD73 /* Debug */,
+				6011ACCC2B2064CE00D6DD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6011ACCD2B2064CE00D6DD73 /* Build configuration list for PBXNativeTarget "Online Forum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6011ACCE2B2064CE00D6DD73 /* Debug */,
+				6011ACCF2B2064CE00D6DD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6011ACD02B2064CE00D6DD73 /* Build configuration list for PBXNativeTarget "Online ForumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6011ACD12B2064CE00D6DD73 /* Debug */,
+				6011ACD22B2064CE00D6DD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6011ACD32B2064CE00D6DD73 /* Build configuration list for PBXNativeTarget "Online ForumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6011ACD42B2064CE00D6DD73 /* Debug */,
+				6011ACD52B2064CE00D6DD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6011ACA12B2064CB00D6DD73 /* Project object */;
+}
